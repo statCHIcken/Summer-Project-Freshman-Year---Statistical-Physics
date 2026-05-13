@@ -14,6 +14,7 @@ The comparison below shows how distributions evolve for averaging:
 - 4 random numbers  
 - 5 random numbers  
 - 10 random numbers
+
 Random Number Plots tending to Gaussian Distribution.pdf
 
 ### Concepts Explored

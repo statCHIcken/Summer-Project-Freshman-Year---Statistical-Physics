@@ -53,7 +53,8 @@ m(dv/dt) = -γv + η(t)
 - Thermal energy (kBT)
 
 ### Sample Output
-![Langevin Output](OneParticleSimulation.png)
+[Open Plot](One%20Particle%20Simulation.png)
+![Langevin Output](One Particle Simulation.png)
 
 ## Concepts Used
 

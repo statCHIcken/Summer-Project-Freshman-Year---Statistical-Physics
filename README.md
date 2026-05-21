@@ -34,7 +34,7 @@ The Langevin equation used:
 
 m(dv/dt) = -γv + η(t)
 
-[Python Code](Simulating%20one%20particle%20as%20per%20Langevin%20model.py)
+[Python Code](Simulating%20one%20%20particle%20as%20per%20Langevin%20model.py)
 
 ### Features
 

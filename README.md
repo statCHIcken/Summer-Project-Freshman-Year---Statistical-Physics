@@ -4,8 +4,7 @@ This repository contains work completed during my summer project at IISER Mohali
 ## Assignment 1: Emergence of Gaussian Distribution
 This assignment explores how averaging random numbers leads to the emergence of a Gaussian (bell-curve) distribution.
 
-### Python Code
-Gaussian Emergence from random numbers.py
+[Python Code](Gaussian%20Emergence%20from%20random%20numbers.py)
 
 ### Output Graph
 The comparison below shows how distributions evolve for averaging:
@@ -15,7 +14,7 @@ The comparison below shows how distributions evolve for averaging:
 - 5 random numbers  
 - 10 random numbers
 
-Random Number Plots tending to Gaussian Distribution.pdf
+[Output Plots](Random%20Number%20Plots%20tending%20to%20Gaussian%20Distribution.pdf)
 
 ### Concepts Explored
 - Gaussian Distribution
@@ -35,8 +34,7 @@ The Langevin equation used:
 
 m(dv/dt) = -γv + η(t)
 
-### Python Code
-
+[Python Code](Simulating%20one%20particle%20as%20per%20Langevin%20model.py)
 
 ### Features
 
@@ -53,7 +51,7 @@ m(dv/dt) = -γv + η(t)
 - Thermal energy (kBT)
 
 ### Sample Output
-[Output Plot](One%20Particle%20Simulation.png)
+[Output Plots](One%20Particle%20Simulation.png)
 
 
 ## Concepts Used

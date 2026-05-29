@@ -61,3 +61,88 @@ m(dv/dt) = -γv + η(t)
 - Gaussian Noise
 - Fluctuation-Dissipation
 - Statistical Mechanics
+
+## Assignment 3 : Multiple Particles Simulation As Per The Langevin Model
+
+This project extends the single-particle Langevin simulation to study the **emergence of statistical behavior** in systems with increasing particle number.
+
+The simulation was performed for:
+
+* 2 particles
+* 10 particles
+* 50 particles
+* 100 particles
+* 500 particles
+
+Each particle evolves independently under **Langevin dynamics**, receiving:
+
+* **Frictional damping (dissipation)**
+* **Independent Gaussian thermal noise (fluctuations)**
+
+The Langevin equation used is:
+
+m(dv/dt) = -γv + η(t)
+
+where random thermal kicks are modeled using Gaussian noise satisfying thermal fluctuations.
+
+### Objective
+
+The goal of this simulation is to observe how **statistical mechanics behavior emerges** as the number of particles increases.
+
+For a small number of particles, the dynamics are highly stochastic and fluctuate strongly. As the particle number increases, ensemble averages become smoother and approach expected statistical behavior.
+
+### Quantities Studied
+
+The following quantities were computed and plotted:
+
+* Average Velocity vs Time ⟨v⟩
+* Average Velocity Squared vs Time ⟨v²⟩
+* Average Position vs Time ⟨x⟩
+* Average Position Squared vs Time ⟨x²⟩
+
+### Observations
+
+#### Small Particle Number (2–10 particles)
+
+* Strong fluctuations are observed.
+* Individual stochastic effects dominate.
+* Equilibrium behavior is less apparent.
+
+#### Intermediate Particle Number (50–100 particles)
+
+* Ensemble averages become smoother.
+* Velocity fluctuations begin approaching thermal equilibrium.
+* Diffusive behavior becomes clearer.
+
+#### Large Particle Number (500 particles)
+
+* Statistical behavior becomes clearly visible.
+* Fluctuations reduce significantly.
+* Ensemble properties emerge more cleanly, illustrating core ideas of statistical mechanics.
+
+### Physics Concepts Used
+
+* Brownian Motion
+* Langevin Equation
+* Gaussian Noise
+* Diffusion
+* Thermal Equilibrium
+* Ensemble Averaging
+* Fluctuation–Dissipation
+* Statistical Mechanics
+* Non-equilibrium Statistical Mechanics
+
+### Computational Tools
+
+* Python
+* NumPy
+* Matplotlib
+[Code](Simulating%20Multiple%20Particles%20As%20Per%20Langevin%20Model.py)
+
+### Simulation Outputs
+
+* [2 Particles](Two%20Particle%20Simulation.png)
+* [10 Particles](Ten%20Particles%20Simulation.png)
+* [50 Particles](Fifty%20Particles%20Simulation.png)
+* [100 Particles](Hundred%20Particles%20Simulation.png)
+* [500 Particles](Five%20Hundred%20Particles%20Simulation.png)

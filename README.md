@@ -1,7 +1,7 @@
 # Summer-Project-Freshman-Year---Statistical-Physics
 This repository contains work completed during my summer project at IISER Mohali under the guidance of Prof. Prasenjit Das.
 
-## Assignment 1: Emergence of Gaussian Distribution
+## 1. Emergence of Gaussian Distribution
 This assignment explores how averaging random numbers leads to the emergence of a Gaussian (bell-curve) distribution.
 
 [Python Code](Gaussian%20Emergence%20from%20random%20numbers.py)
@@ -21,7 +21,7 @@ The comparison below shows how distributions evolve for averaging:
 - Central Limit Theorem
 - Random Variables
 
-## Assignment 2 : One Particle Simulation As Per The Langevin Model
+## 2. One Particle Simulation As Per The Langevin Model
 
 Simulation of a Brownian particle using the Langevin equation in Python.
 
@@ -62,7 +62,7 @@ m(dv/dt) = -γv + η(t)
 - Fluctuation-Dissipation
 - Statistical Mechanics
 
-## Assignment 3 : Multiple Particles Simulation As Per The Langevin Model
+## 3. Multiple Particles Simulation As Per The Langevin Model
 
 This project extends the single-particle Langevin simulation to study the **emergence of statistical behavior** in systems with increasing particle number.
 

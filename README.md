@@ -180,10 +180,27 @@ Extended the Langevin dynamics simulation to multi-particle to investigate the e
 
 ### Code
 #### Computed temperature , maxwell-boltzmann distribution :
-[Code1](MB%20distribution.py)
-[Computed Temperature](Computed%20temperature.png)
+[Code](MB%20distribution.py)
+
+[Computed Temperature Value](Computed%20Temperature.png)
+
+[Maxwell-Boltzmann Distribution](Maxwell%20Boltzmann%20Simulation.png)
 
 
+#### Diffusion Coefficient , Mean Square Displacement :
+[Code](Diffusion%20coeff%20and%20mean%20square%20displacement.py)
+
+[Diffusion Coefficient Value](Diffusion%20coefficients.png)
+
+[Mean Square Diplacement vs Time Plot](MSD%20vs%20time.png)
+
+#### Mean Square Displacement Nature for short (ballistic) vs long(Diffusive) time :
+
+[Code](diffcoeffforsmallt.py)
+
+[MSD vs Time plot](MSDvst.png)
+
+[log (MSD) vs log (Time)](logMSD%20vs%20logt.png)
 
 ### Observations
 * Computed temperature converged close to bath temperature

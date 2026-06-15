@@ -164,8 +164,8 @@ Extended the Langevin dynamics simulation to multi-particle to investigate the e
 * Generated **log(MSD) vs log(Time)** plots
 * Observed:
 
-  * **Ballistic regime:** (MSD \propto t^2)
-  * **Diffusive regime:** (MSD \propto t)
+  * **Ballistic regime:** (MSD proportional t^2)
+  * **Diffusive regime:** (MSD proportional t)
 * Identified the crossover between short-time and long-time behaviour
 
 ### Key Concepts Explored
@@ -177,6 +177,13 @@ Extended the Langevin dynamics simulation to multi-particle to investigate the e
 * Fluctuation–Dissipation Relation
 * Mean Squared Displacement (MSD)
 * Diffusion
+
+### Code
+#### Computed temperature , maxwell-boltzmann distribution :
+[Code1](MB%20distribution.py)
+[Computed Temperature](Computed%20temperature.png)
+
+
 
 ### Observations
 * Computed temperature converged close to bath temperature

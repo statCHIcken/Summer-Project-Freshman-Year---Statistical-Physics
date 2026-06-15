@@ -146,3 +146,40 @@ The following quantities were computed and plotted:
 * [50 Particles](Fifty%20Particles%20Simulation.png)
 * [100 Particles](Hundred%20Particles%20Simulation.png)
 * [500 Particles](Five%20Hundred%20Particles%20Simulation.png)
+
+## 4. Thermalization, Maxwell–Boltzmann Distribution and Diffusion:
+Extended the Langevin dynamics simulation to multi-particle to investigate the emergence of equilibrium statistical behaviour.
+
+### Work Completed
+* Extended the analysis to **100000 particles** for statistical measurements
+* Computed temperature from **mean squared velocity**
+* Generated **velocity distribution functions**
+* Compared numerical results with the **Maxwell–Boltzmann distribution**
+* Computed and analysed the **diffusion coefficient**
+* Compared simulation and theoretical predictions
+
+### Additional Analysis
+* Computed **Mean Squared Displacement (MSD)**
+* Generated **MSD vs Time** plots
+* Generated **log(MSD) vs log(Time)** plots
+* Observed:
+
+  * **Ballistic regime:** (MSD \propto t^2)
+  * **Diffusive regime:** (MSD \propto t)
+* Identified the crossover between short-time and long-time behaviour
+
+### Key Concepts Explored
+
+* Langevin Equation
+* Brownian Motion
+* Thermalization
+* Maxwell–Boltzmann Distribution
+* Fluctuation–Dissipation Relation
+* Mean Squared Displacement (MSD)
+* Diffusion
+
+### Observations
+* Computed temperature converged close to bath temperature
+* Velocity distribution approached the Maxwell–Boltzmann prediction
+* Diffusion behaviour agreed with theoretical expectations
+* Larger particle counts produced smoother statistical behaviour and reduced fluctuations

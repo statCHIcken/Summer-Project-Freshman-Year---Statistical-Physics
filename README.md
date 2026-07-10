@@ -4,7 +4,7 @@ This repository contains work completed during my summer project at IISER Mohali
 ## 1. Emergence of Gaussian Distribution
 This assignment explores how averaging random numbers leads to the emergence of a Gaussian (bell-curve) distribution.
 
-[Python Code](Gaussian%20Emergence%20from%20random%20numbers.py)
+
 
 ### Output Graph
 The comparison below shows how distributions evolve for averaging:
@@ -14,7 +14,7 @@ The comparison below shows how distributions evolve for averaging:
 - 5 random numbers  
 - 10 random numbers
 
-[Output Plots](Random%20Number%20Plots%20tending%20to%20Gaussian%20Distribution.pdf)
+
 
 ### Concepts Explored
 - Gaussian Distribution
@@ -34,7 +34,6 @@ The Langevin equation used:
 
 m(dv/dt) = -γv + η(t)
 
-[Python Code](Simulating%20one%20%20particle%20as%20per%20Langevin%20model.py)
 
 ### Features
 
@@ -49,10 +48,6 @@ m(dv/dt) = -γv + η(t)
 - Friction coefficient (γ)
 - Time step (dt)
 - Thermal energy (kBT)
-
-### Sample Output
-[Output Plots](One%20Particle%20Simulation.png)
-
 
 ## Concepts Used
 
@@ -137,15 +132,6 @@ The following quantities were computed and plotted:
 * Python
 * NumPy
 * Matplotlib
-[Code](Simulating%20Multiple%20Particles%20As%20Per%20Langevin%20Model.py)
-
-### Simulation Outputs
-
-* [2 Particles](Two%20Particle%20Simulation.png)
-* [10 Particles](Ten%20Particles%20Simulation.png)
-* [50 Particles](Fifty%20Particles%20Simulation.png)
-* [100 Particles](Hundred%20Particles%20Simulation.png)
-* [500 Particles](Five%20Hundred%20Particles%20Simulation.png)
 
 ## 4. Thermalization, Maxwell–Boltzmann Distribution and Diffusion:
 Extended the Langevin dynamics simulation to multi-particle to investigate the emergence of equilibrium statistical behaviour.
@@ -177,30 +163,6 @@ Extended the Langevin dynamics simulation to multi-particle to investigate the e
 * Fluctuation–Dissipation Relation
 * Mean Squared Displacement (MSD)
 * Diffusion
-
-### Code
-#### Computed temperature , maxwell-boltzmann distribution :
-[Code](MB%20distribution.py)
-
-[Computed Temperature Value](Computed%20Temperature.png)
-
-[Maxwell-Boltzmann Distribution](Maxwell%20Boltzmann%20Simulation.png)
-
-
-#### Diffusion Coefficient , Mean Square Displacement :
-[Code](Diffusion%20coeff%20and%20mean%20square%20displacement.py)
-
-[Diffusion Coefficient Value](Diffusion%20coefficients.png)
-
-[Mean Square Diplacement vs Time Plot](MSD%20vs%20time.png)
-
-#### Mean Square Displacement Nature for short (ballistic) vs long(Diffusive) time :
-
-[Code](diffcoeffforsmallt.py)
-
-[MSD vs Time plot](MSDvst.png)
-
-[log (MSD) vs log (Time)](logMSD%20vs%20logt.png)
 
 ### Observations
 * Computed temperature converged close to bath temperature
